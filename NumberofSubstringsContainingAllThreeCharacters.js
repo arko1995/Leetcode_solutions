@@ -18,8 +18,6 @@ const numberOfSubstrings = function (s) {
     }
   }
 
-  console.log(output);
-
   return output;
 };
 
