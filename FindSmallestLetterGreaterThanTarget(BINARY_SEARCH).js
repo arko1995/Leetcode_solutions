@@ -2,7 +2,7 @@ const nextGreatestLetter = function (letters, target) {
   let left = 0;
   let right = letters.length;
 
-  while (left <= right) {
+  while (left < right) {
     const mid = Math.floor((left + right) / 2);
 
     if (letters[mid] <= target) {
