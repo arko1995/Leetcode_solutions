@@ -24,6 +24,7 @@ class Solution:
                         right = mid - 1
 
                 count += left - j - 1
+
         return count
 
 
