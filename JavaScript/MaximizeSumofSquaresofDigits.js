@@ -1,4 +1,6 @@
 const maxSumOfSquares = function (num, sum) {
+  if (sum > 9 * num) return "";
+
   let digits = Array(num).fill(9);
 
   const sumOfDigits = digits.reduce((a, b) => a + b);
