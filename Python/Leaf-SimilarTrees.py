@@ -37,8 +37,3 @@ class Solution:
 
 
 sol = Solution()
-
-sol.leafSimilar(
-    [3, 5, 1, 6, 2, 9, 8, None, None, 7, 4],
-    [3, 5, 1, 6, 7, 4, 2, None, None, None, None, None, None, 9, 8],
-)
