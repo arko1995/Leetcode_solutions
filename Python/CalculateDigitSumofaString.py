@@ -16,7 +16,7 @@ class Solution:
                 i += k
             s = string
 
-        return string
+        return s
 
 
 solution = Solution()
